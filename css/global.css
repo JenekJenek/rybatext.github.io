@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+    --main-btn-color: hsla(191, 81%, 44%, 1);
+    --main-text-color: hsla(0, 0%, 100%, 0.86);
+    --font-family: Roboto;
+    --benefits-text-color: hsla(235, 15%, 26%, 1);
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p , h1 , h2 , h3, input {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section:first-child {
+    padding-top: 40px;
+}
+
+section:last-child {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.secret {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+.container {
+    width: 964px;
+    margin: 0 auto;
+}
+
+section:first-child {
+    padding-top: 26px;
+}
+}
+
+@media (max-width: 320px) {
+.container {
+    width: 289.92px;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section:first-child {
+    padding-top: 15px;
+}
+
+.secret {
+    display: block;
+}
+}
