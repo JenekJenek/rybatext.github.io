@@ -111,10 +111,10 @@
 
 .benefits__box {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-basis: 196px;
-    width: 900px;
-    padding-left: 150px;
+    /* width: 900px; */
+    /* padding-left: 150px; */
     gap: 50px
 }
 
